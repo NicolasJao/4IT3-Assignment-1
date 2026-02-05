@@ -1,3 +1,8 @@
+/*
+SA: I Nicolas Jao, 400450151 certify that this material is my original work. 
+No other person's work has been used without due acknowledgement. I have also 
+not made my work available to anyone else.
+*/
 html {
   background: url("background.gif") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -18,86 +23,162 @@ body {
 	line-height: 1;
 }
 
+ol, ul {
+	list-style: none;
+}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-  width: 800px;
-  table-layout: fixed;
 }
 
 #container {
 	width: 1300px;
-	background-color: #D3D3D3;
+	background-color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
 	padding: 60px;
 }
 
+nav {
+	background-color: #FFFFFF;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	border-bottom: solid thin black;
+	font-size: 30px;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0px 10px 0px 10px
+}
+
+nav ul li a:link, nav ul li a:visited {
+	color: #000000;
+	padding: 6px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: #ababab;
+}
+
+nav ul li a:active {
+	background-color: #666666;
+}
+
 body {
 	line-height: 175%;
-	font-family: "Arial";
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: justify;
 }
 
 h1 {
-	font-family: "Arial", cursive;
-	font-size: 35px;
-	color: #2206f6;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	color: #666666;
 	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+p {
+	color: #000000;
+	line-height: 175%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: justify;
+	font-size: 25px;
 }
 
 h2 {
-  font-family: "Arial", cursive;
-  font-size: 20px;
-  color: #2206f6;
-  font-style: italic;
-  margin-bottom: 20px;
+	font-size: 40px;
+	color: #666666;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 30px;
+	color: #666666;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+img {
+	border: solid black thin;
+}
+
+.floatLeft {
+	float: left;
+	margin-right: 20px;
+}
+
+.floatRight {
+	float: right;
+	margin-left: 30px;
+}
+
+ul {
+	list-style: disc;
+	margin-left: 40px;
+}
+
+ol {
+	list-style: decimal;
+	margin-left: 40px;
+}
+
+li {
+	color: #000000;
+	line-height: 175%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: justify;
+	font-size: 25px;
 }
 
 #credits {
 	padding: 20px;
 	text-align: center;
-	background-color: #d3d3d3;
+	background-color: #FFFFFF;
 	border-top: solid thin black;
   width: 100%;
 }
 
 table {
-  width: 800px;
+  width: 100%;
   table-layout: fixed;
-  font-family: "Arial";
-}
-
-#noData {
-  background: repeating-linear-gradient(45deg,red,red 15px,transparent 10px, transparent 20px);
-  color: white;
 }
 
 table, th, td {
-	border: 1px dotted black;
+	border: 1px solid black;
+	padding: 15px;
+  margin-top: 15px;
 	font-size: 25px;
-	margin-top: 20px;
 }
 
 th {
 	text-align: center;
 	font-weight: bold;
-  background-color: #000000;
-  color: white;
-  border: white dotted 2px;
 }
 
 td {
 	text-align: center;
 }
 
-#logoTable {
-  border: none;
-  padding: 10px;
-  text-align: left;
+a {
+	font-size: 25px;
 }
 
-#alternateRow {
-  background-color: #A9A9A9;
+.box {
+  background-color: rgb(180,180,180);
+  padding: 30px;
+  border-radius: 25px;
 }
